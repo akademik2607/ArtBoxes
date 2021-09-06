@@ -1,0 +1,29 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1332px;
+	margin: 0 auto;
+}
+
+.header-top__wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-top__menu {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
+
+.header-top__item {
+	list-style: none;
+}
+
+.header-top__order {
+	color: inherit;
+	text-decoration: none;
+}
