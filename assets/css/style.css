@@ -1,12 +1,27 @@
+/*Базовые стили*/
 * {
 	box-sizing: border-box;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	list-style: none;
 }
 
 .container {
 	max-width: 1332px;
 	margin: 0 auto;
 }
-
+/*header*/
 .header-top__wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -15,15 +30,15 @@
 .header-top__menu {
 	display: flex;
 	justify-content: space-between;
-	margin: 0;
-	padding: 0;
+	
 }
 
-.header-top__item {
-	list-style: none;
+.header-bottom__wrapper{
+	display: flex;
+	justify-content: space-between;
 }
 
-.header-top__order {
-	color: inherit;
-	text-decoration: none;
+.header-bottom__menu {
+	display: flex;
+	justify-content: space-between;
 }
